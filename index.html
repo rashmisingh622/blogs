@@ -9,9 +9,7 @@
   <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
-
   <div class="noise"></div>
-
   <header class="site-header">
     <div class="header-inner">
       <a href="index.html" class="wordmark">RS</a>
@@ -21,7 +19,6 @@
       </nav>
     </div>
   </header>
-
   <main class="hero">
     <div class="hero-text">
       <p class="eyebrow">— a creative space</p>
@@ -42,7 +39,6 @@
       </div>
     </div>
   </main>
-
   <section class="recent-row">
     <div class="recent-col">
       <h2 class="section-label">Recent Writing</h2>
@@ -58,18 +54,21 @@
     <div class="recent-col">
       <h2 class="section-label">Recent Paintings</h2>
       <div class="thumb-grid" id="recent-paintings">
-        <div class="thumb-placeholder">
-          <span>Coming soon</span>
-        </div>
+        <a href="paintings/index.html" class="thumb-link">
+          <img
+            src="paintings/images/Sunset.jpg"
+            alt="Sunset — a painting by Rashmi Singh"
+            class="thumb-img"
+          />
+          <span class="thumb-caption">Sunset</span>
+        </a>
       </div>
       <a href="paintings/index.html" class="see-all">Full gallery →</a>
     </div>
   </section>
-
   <footer class="site-footer">
     <p>© <span id="yr"></span> Rashmi Singh &nbsp;·&nbsp; Made with care</p>
   </footer>
-
   <script src="assets/js/main.js"></script>
   <script>document.getElementById('yr').textContent = new Date().getFullYear();</script>
 </body>
