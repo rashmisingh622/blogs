@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Rashmi Singh — Words & Art</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Mono:wght@300;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+  <div class="noise"></div>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="wordmark">RS</a>
+      <nav>
+        <a href="blogs/index.html">Writing</a>
+        <a href="paintings/index.html">Paintings</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="hero">
+    <div class="hero-text">
+      <p class="eyebrow">— a creative space</p>
+      <h1>Words<br/><em>&amp; colour</em></h1>
+      <p class="tagline">Stories written in ink, and stories painted in hue. Both are ways of seeing.</p>
+      <div class="cta-row">
+        <a href="blogs/index.html" class="cta-primary">Read the blog</a>
+        <a href="paintings/index.html" class="cta-secondary">View paintings</a>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="canvas-deco">
+        <div class="stroke s1"></div>
+        <div class="stroke s2"></div>
+        <div class="stroke s3"></div>
+        <div class="circle c1"></div>
+        <div class="circle c2"></div>
+      </div>
+    </div>
+  </main>
+
+  <section class="recent-row">
+    <div class="recent-col">
+      <h2 class="section-label">Recent Writing</h2>
+      <ul class="post-list" id="recent-blogs">
+        <li class="post-item placeholder">
+          <span class="post-date">—</span>
+          <a href="blogs/posts/_template.html" class="post-title">Your first post goes here</a>
+        </li>
+      </ul>
+      <a href="blogs/index.html" class="see-all">All posts →</a>
+    </div>
+    <div class="divider-v"></div>
+    <div class="recent-col">
+      <h2 class="section-label">Recent Paintings</h2>
+      <div class="thumb-grid" id="recent-paintings">
+        <div class="thumb-placeholder">
+          <span>Coming soon</span>
+        </div>
+      </div>
+      <a href="paintings/index.html" class="see-all">Full gallery →</a>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <p>© <span id="yr"></span> Rashmi Singh &nbsp;·&nbsp; Made with care</p>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+  <script>document.getElementById('yr').textContent = new Date().getFullYear();</script>
+</body>
+</html>
