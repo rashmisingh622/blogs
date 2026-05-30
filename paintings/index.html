@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Paintings — Rashmi Singh</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Mono:wght@300;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+</head>
+<body>
+  <div class="noise"></div>
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="../index.html" class="wordmark">RS</a>
+      <nav>
+        <a href="../blogs/index.html">Writing</a>
+        <a href="../paintings/index.html">Paintings</a>
+      </nav>
+    </div>
+  </header>
+  <section class="page-hero">
+    <h1>Paintings<br/><em>&amp; Colour</em></h1>
+    <p>A visual journal — each painting a feeling the words didn't quite reach.</p>
+  </section>
+  <div class="gallery-grid">
+    <div class="gallery-item">
+      <img src="images/Sunset.jpg" alt="Sunset through the trees" loading="lazy" />
+      <div class="gallery-caption">
+        <span class="gallery-caption-text">Sunset, 2025 — Acrylic on Canvas</span>
+      </div>
+    </div>
+  </div>
+  <footer class="site-footer">
+    <p>© <span id="yr"></span> Rashmi Singh</p>
+  </footer>
+  <script src="../assets/js/main.js"></script>
+  <script>document.getElementById('yr').textContent = new Date().getFullYear();</script>
+</body>
+</html>

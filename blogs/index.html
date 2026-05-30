@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Writing — Rashmi Singh</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Mono:wght@300;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+</head>
+<body>
+  <div class="noise"></div>
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="../index.html" class="wordmark">RS</a>
+      <nav>
+        <a href="../blogs/index.html">Writing</a>
+        <a href="../paintings/index.html">Paintings</a>
+      </nav>
+    </div>
+  </header>
+  <section class="page-hero">
+    <h1>Writing<br/><em>&amp; Thinking</em></h1>
+    <p>Observations, stories, and ideas — written slowly, meant to last.</p>
+  </section>
+  <ul class="blog-list">
+    <li class="blog-entry">
+      <span class="blog-entry-date">Coming<br/>soon</span>
+      <div>
+        <a href="posts/_template.html" class="blog-entry-title">Your first post</a>
+        <p class="blog-entry-excerpt">This is where your first post will appear. Duplicate the template, fill in the details, and create the matching file in blogs/posts/.</p>
+        <span class="blog-entry-tag">intro</span>
+      </div>
+    </li>
+  </ul>
+  <footer class="site-footer">
+    <p>© <span id="yr"></span> Rashmi Singh</p>
+  </footer>
+  <script src="../assets/js/main.js"></script>
+  <script>document.getElementById('yr').textContent = new Date().getFullYear();</script>
+</body>
+</html>
